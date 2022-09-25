@@ -1,0 +1,79 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.back-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 576px) {
+  .back-container {
+    display: flex;
+  }
+}
+.cards-containers12 {
+  background-color: #32127a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 15px;
+  width: 350px;
+}
+.back1 {
+  background-color: #f1f8fe;
+}
+.ui {
+  display: flex;
+  margin-bottom: 0px;
+  align-items: center;
+}
+.icons1 {
+  color: black;
+  font-size: 25px;
+  margin-left: 40px;
+}
+.p1 {
+  color: black;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.live-h {
+  text-align: center;
+  display: flex;
+  color: black;
+  font-family: 'Roboto';
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .live-h {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.popup-container7 {
+  width: 100%;
+}
+.img5 {
+  width: 220px;
+}
+.div-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
